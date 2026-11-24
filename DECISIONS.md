@@ -32,3 +32,6 @@ AI controll:
 2026-11-18  Asked the agent for a save system. Used Unreal SaveGame (Saved/SaveGames) instead of JSON; a missing or corrupted SaveSlot.sav falls back to defaults.
 
 Assignment 12
+2026-11-24  Did a stupid mistake - my slider event had a SET Save Ref with an empty value, which would erase the save data in memory - AI helped me find the issue and removed it and only set the volume on Save Ref.
+2026-11-24  Sliders did not change the sound - pushing SM_Volumes once in Event Init was not reliable; AI helped me moved Push Sound Mix Modifier to the end of ApplyVolumes.
+2026-11-25  Asked the agent to help with packaging the project as APK.
