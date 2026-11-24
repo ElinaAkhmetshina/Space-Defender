@@ -30,3 +30,5 @@ AI controll:
 2026-11-16  Enemies spawned in T-pose with "Accessed None: Stats" - Stats had Expose on Spawn, so the spawner overwrote it with None. Turned Expose on Spawn off.
 2026-11-16  Flyers flew between points but never shot - DA_Flyer's Vision Range kept resetting to 0 because a SET node with a Target wrote into the data asset. Replaced it with Get from the asset + SET on the Flyer's own variable.
 2026-11-18  Asked the agent for a save system. Used Unreal SaveGame (Saved/SaveGames) instead of JSON; a missing or corrupted SaveSlot.sav falls back to defaults.
+
+Assignment 12
